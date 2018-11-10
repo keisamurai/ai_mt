@@ -71,8 +71,8 @@ if __name__ == '__main__':
     NLQ='dai-ichi-life'
     SSD='20180920'
     SED='20180921'
-    USERNAME='a0766d60-1d62-4cbc-abb9-1542a790bdca' # auth username
-    PASS='Sfi1P1AhZFGk'                             # auth password
+    USERNAME=[Username] # auth username
+    PASS=[Password]                             # auth password
     OUTPUTFILE='TestSentimentData.csv'
     # 処理用定義
     POSITIVE=0
