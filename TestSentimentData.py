@@ -27,8 +27,6 @@ def AggregateSentimentData(NLQ, SSD, SED, USERNAME, PASS):
     SEARCH_START_DATE=DateCulc.DateUTime(SSD)       # date for query
     SEARCH_END_DATE=DateCulc.DateUTime(SED)         # date for query
     QUERY_NLQ=NLQ                                   # Query word for Natural Language Query
-    USERNAME='a0766d60-1d62-4cbc-abb9-1542a790bdca' # auth username
-    PASS='Sfi1P1AhZFGk'                             # auth password
     URL_NEWS='https://gateway.watsonplatform.net/discovery/api/v1/environments/system/collections/news-en/query'
     
     # curl用パラメータセット
